@@ -1,0 +1,88 @@
+import type { Tech } from "@/types";
+
+export const techStack: Tech[] = [
+  {
+    id: "1",
+    name: "Next.js",
+    icon: "⚡",
+    color: "#00f0ff",
+    category: "frontend",
+  },
+  {
+    id: "2",
+    name: "TypeScript",
+    icon: "📘",
+    color: "#3178c6",
+    category: "frontend",
+  },
+  {
+    id: "3",
+    name: "React",
+    icon: "⚛️",
+    color: "#61dafb",
+    category: "frontend",
+  },
+  {
+    id: "4",
+    name: "Three.js",
+    icon: "🎲",
+    color: "#b84fff",
+    category: "frontend",
+  },
+  {
+    id: "5",
+    name: "GSAP",
+    icon: "🎬",
+    color: "#88ce02",
+    category: "frontend",
+  },
+  {
+    id: "6",
+    name: "Tailwind",
+    icon: "🎨",
+    color: "#06b6d4",
+    category: "frontend",
+  },
+  {
+    id: "7",
+    name: "Node.js",
+    icon: "🟢",
+    color: "#339933",
+    category: "backend",
+  },
+  {
+    id: "8",
+    name: "PostgreSQL",
+    icon: "🐘",
+    color: "#4169e1",
+    category: "database",
+  },
+  {
+    id: "9",
+    name: "MongoDB",
+    icon: "🍃",
+    color: "#47a248",
+    category: "database",
+  },
+  {
+    id: "10",
+    name: "Docker",
+    icon: "🐋",
+    color: "#2496ed",
+    category: "tools",
+  },
+  {
+    id: "11",
+    name: "Git",
+    icon: "📦",
+    color: "#f05032",
+    category: "tools",
+  },
+  {
+    id: "12",
+    name: "Figma",
+    icon: "🎯",
+    color: "#f24e1e",
+    category: "tools",
+  },
+];
